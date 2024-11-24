@@ -4,9 +4,7 @@
   "description": "SPA Core",
   "type": "module",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ppoi/ella-spa-core.git"
@@ -17,16 +15,10 @@
     "url": "https://github.com/ppoi/ella-spa-core/issues"
   },
   "homepage": "https://github.com/ppoi/ella-spa-core#readme",
-  "devDependencies": {
-    "@sveltejs/vite-plugin-svelte": "^3.1.2",
-    "esm": "^3.2.25",
-    "sass": "^1.79.4",
-    "vite": "^5.4.8"
-  },
   "dependencies": {
     "lodash-es": "^4.17.21",
     "path-to-regexp": "^8.2.0",
     "rawth": "^3.0.0",
-    "svelte": "^4.2.19"
+    "svelte": "^5.2.7"
   }
 }
