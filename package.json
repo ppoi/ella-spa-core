@@ -19,6 +19,6 @@
     "lodash-es": "^4.17.21",
     "path-to-regexp": "^8.2.0",
     "rawth": "^3.0.0",
-    "svelte": "^5.14.1"
+    "svelte": "^5.15.0"
   }
 }
