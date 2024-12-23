@@ -58,17 +58,6 @@
   }
 }
 
-.navigation-rail {
-  background: linear-gradient(0deg,rgba(209,225,255,.08),rgba(209,225,255,.08)), var(--gv-navigation-background-color, #1f1f1f);
-  position: fixed;
-  top: 0px;
-  left: 0px;
-  height: 100vh;
-  width: var(--gv-navigation-width, 80px);
-  overflow-y: auto;
-  z-index: 101;
-}
-
 .navigation-bar {
   top: calc(100vh - var(--gv-navigation-width, 80px));
   position: fixed;
