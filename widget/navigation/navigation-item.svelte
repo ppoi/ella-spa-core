@@ -17,13 +17,13 @@
       if(blocked) {
         e.preventDefault();
       } else {
-        callback?.();
+        callback?.(e);
       }
     }
   }
 </script>
 
-<a href="{path}" class="section-link" class:active="{ active }" class:blocked={blocked} onclick={eventHandler(onclick)} onmouseover={eventHandler(onmouseenter)}>
+<a href="{path}" class="section-link" class:active="{ active }" class:blocked={blocked} onfocus={null} onclick={eventHandler(onclick)} onmouseover={eventHandler(onmouseenter)}>
   <span class="navicon material-symbols-outlined">{ icon }</span>
   <div class="label">{ label }</div>
 </a>
