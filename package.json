@@ -3,22 +3,27 @@
   "version": "1.0.0",
   "description": "SPA Core",
   "type": "module",
-  "main": "index.js",
-  "scripts": {},
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ppoi/ella-spa-core.git"
   },
   "author": "PPOI <ppoi@tsukuba-bunko.org>",
   "license": "Apache-2.0",
-  "bugs": {
-    "url": "https://github.com/ppoi/ella-spa-core/issues"
+  "exports": {
+    ".": "./lib/index.js",
+    "./router": "./lib/router.js",
+    "./session/modules": "./lib/session/modules.js",
+    "./style/*.scss": "./style/*.scss",
+    "./style/*.css": "./style/*.css"
   },
-  "homepage": "https://github.com/ppoi/ella-spa-core#readme",
+  "files": [
+    "style"
+  ],
   "dependencies": {
     "lodash-es": "^4.17.21",
     "path-to-regexp": "^8.2.0",
     "rawth": "^3.0.0",
-    "svelte": "^5.20.4"
+    "svelte": "^5.33.3"
   }
 }
