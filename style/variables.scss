@@ -1,0 +1,62 @@
+$prefix: "touka" !default;
+
+$color-primary: rgb(166 200 255) !default;
+$color-surface-tint: rgb(166 200 255) !default;
+$color-on-primary: rgb(1 49 94) !default;
+$color-primary-container: rgb(35 71 118) !default;
+$color-on-primary-container: rgb(213 227 255) !default;
+$color-secondary: rgb(189 199 220) !default;
+$color-on-secondary: rgb(39 49 65) !default;
+$color-secondary-container: rgb(61 71 88) !default;
+$color-on-secondary-container: rgb(217 227 248) !default;
+$color-tertiary: rgb(218 189 226) !default;
+$color-on-tertiary: rgb(61 40 70) !default;
+$color-tertiary-container: rgb(85 63 93) !default;
+$color-on-tertiary-container: rgb(247 216 255) !default;
+$color-error: rgb(255 180 171) !default;
+$color-on-error: rgb(105 0 5) !default;
+$color-error-container: rgb(147 0 10) !default;
+$color-on-error-container: rgb(255 218 214) !default;
+$color-background: rgb(17 19 24) !default;
+$color-on-background: rgb(225 226 233) !default;
+$color-surface: rgb(17 19 24) !default;
+$color-on-surface: rgb(225 226 233) !default;
+$color-surface-variant: rgb(67 71 78) !default;
+$color-on-surface-variant: rgb(195 198 207) !default;
+$color-outline: rgb(141 145 153) !default;
+$color-outline-variant: rgb(67 71 78) !default;
+$color-shadow: rgb(0 0 0) !default;
+$color-scrim: rgb(0 0 0) !default;
+$color-inverse-surface: rgb(225 226 233) !default;
+$color-inverse-on-surface: rgb(46 48 53) !default;
+$color-inverse-primary: rgb(61 95 144) !default;
+$color-primary-fixed: rgb(213 227 255) !default;
+$color-on-primary-fixed: rgb(0 28 59) !default;
+$color-primary-fixed-dim: rgb(166 200 255) !default;
+$color-on-primary-fixed-variant: rgb(35 71 118) !default;
+$color-secondary-fixed: rgb(217 227 248) !default;
+$color-on-secondary-fixed: rgb(18 28 43) !default;
+$color-secondary-fixed-dim: rgb(189 199 220) !default;
+$color-on-secondary-fixed-variant: rgb(61 71 88) !default;
+$color-tertiary-fixed: rgb(247 216 255) !default;
+$color-on-tertiary-fixed: rgb(39 20 48) !default;
+$color-tertiary-fixed-dim: rgb(218 189 226) !default;
+$color-on-tertiary-fixed-variant: rgb(85 63 93) !default;
+$color-surface-dim: rgb(17 19 24) !default;
+$color-surface-bright: rgb(55 57 62) !default;
+$color-surface-container-lowest: rgb(12 14 19) !default;
+$color-surface-container-low: rgb(25 28 32) !default;
+$color-surface-container: rgb(29 32 36) !default;
+$color-surface-container-high: rgb(40 42 47) !default;
+$color-surface-container-highest: rgb(50 53 58) !default;
+
+$text-body-font-family:
+  system-ui,
+  -apple-system,
+  Roboto,
+  "Noto Sans",
+  "Liberation Sans",
+  Arial,
+  sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"
+  !default;

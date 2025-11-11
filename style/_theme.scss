@@ -1,0 +1,13 @@
+@use "sass:meta";
+@use "./variables";
+
+@layer {
+  :root {
+    @each $var-key, $var-value in meta.module-variables("variables") {
+      @if str-index($var-key, "color-") == 1 {
+        --#{variables.$prefix}-#{$var-key}: #{$var-value};
+      }
+    }
+    --#{variables.$prefix}-text-body-font-family: #{variables.$text-body-font-family};
+  }
+}

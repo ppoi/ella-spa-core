@@ -1,0 +1,7 @@
+@use "./variables";
+
+body {
+  background-color: var(--#{variables.$prefix}-color-surface);
+  color: var(--#{variables.$prefix}-color-on-surface);
+  font-family: var(--#{variables.$prefix}-text-body-font-family);
+}

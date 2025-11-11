@@ -1,0 +1,34 @@
+
+@layer {
+
+  :root {
+    text-spacing-trim: trim-start;
+
+    // see https://qiita.com/uhyo/items/309bc9ca545797c2b3ee
+    text-autospace: normal;
+
+    // see https://ics.media/entry/240411/
+    line-break: strict;
+    overflow-wrap: anywhere;
+
+    scrollbar-gutter: stable;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  pre {
+    text-spacing-trim: space-all;
+  }
+
+  em:lang(ja) {
+    font-weight: bolder;
+  }
+
+  :is(i, cite, em, dfn, var):lang(ja) {
+    font-style: unset;
+  }
+
+  ul, ol, menu {
+    list-style-type: "";
+  }
+}

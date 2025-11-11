@@ -1,0 +1,42 @@
+
+.loading-spinner {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: inline-block;
+  border-top: 4px solid rgb(0 0 0 / .3);
+  border-right: 4px solid transparent;
+  box-sizing: border-box;
+  animation: loading-spinner-rotation 1s linear infinite;
+}
+.loading-spinner::after {
+  content: '';  
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border-bottom: 4px solid #FF3D00;
+  border-left: 4px solid transparent;
+}
+@keyframes loading-spinner-rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+dialog.loading-screen {
+  border: none;
+  background-color: rgb(0 0 0 / 0);
+}
+dialog.loading-screen:focus-visible {
+  outline: 0px !important;
+}
+dialog.loading-screen::backdrop {
+  background-color: rgb(255 255 255 / 0.8);
+}

@@ -61,3 +61,9 @@ declare const session: Session;
  * @param config spa-coreモジュール設定
  */
 declare function bootstrap(config: CoreConfig): Promise<void>;
+
+/**
+ * ローディングスクリーンを表示または非表示にします。
+ * @param {boolean} show - ローディングスクリーンの表示状態
+ */
+declare function loading(show: boolean): void

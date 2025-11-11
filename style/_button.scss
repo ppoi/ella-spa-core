@@ -1,0 +1,21 @@
+
+button {
+  display: inline-block;
+  border-radius: 8px;
+  padding: 4px 16px;
+  cursor: pointer;
+}
+button:hover {
+  box-shadow: 0px 1px 2px 0.5px rgb(from var(--#{$prefix}-color-inverse-surface) r g b / 128);
+}
+
+button.filled {
+  border-style: none;
+}
+button.filled.primary {
+  background-color: var(--#{$prefix}-color-primary);
+  color: var(--#{$prefix}-color-on-primary);
+}
+button.filled.secondary {
+  background-color: var(--#{$prefix}-color-secondary);
+}

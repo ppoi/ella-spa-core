@@ -1,0 +1,16 @@
+{
+  "version": 1.1,
+  "properties": [
+    {
+      "name": "text-autospace",
+      "description": "(css-text-4)Controls spacing between adjacent characters on the same line within the same inline formatting context using a set of character-class-based rules, allowing for automatic control over inter-script spacing and for spacing around punctuation.",
+      "status": "experimental",
+      "references": [
+        {
+          "name": "CSS Text Module Level4",
+          "url": "https://drafts.csswg.org/css-text-4/#text-autospace-property"
+        }
+      ]
+    }
+  ]
+}

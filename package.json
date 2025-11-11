@@ -13,17 +13,22 @@
   "exports": {
     ".": "./lib/index.js",
     "./router": "./lib/router.js",
+    "./utils": "./lib/utils.js",
+    "./loading-screen": "./lib/loading-screen.js",
     "./session/modules": "./lib/session/modules.js",
+    "./widget/*.svelte": "./widget/*.svelte",
     "./style/*.scss": "./style/*.scss",
     "./style/*.css": "./style/*.css"
   },
   "files": [
-    "style"
+    "style",
+    "widgets",
+    "lib"
   ],
   "dependencies": {
     "lodash-es": "^4.17.21",
-    "path-to-regexp": "^8.2.0",
+    "path-to-regexp": "^8.3.0",
     "rawth": "^3.0.0",
-    "svelte": "^5.33.3"
+    "svelte": "^5.39.9"
   }
 }
